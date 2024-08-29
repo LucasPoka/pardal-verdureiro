@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="pt-br"> 
+    <head>
+        <meta charset = 'UTF-8'> 
+        <meta name = "viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+        <title>Pardal Verduras</title> 
+        <link rel=”stylesheet” href=”https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css” 
+        integrity=”sha384-MCw98/>
+        <title>Sobre nós</title> 
+        
+        <style>
+            header{
+            text-align: center; position: relative; background-image: url('verduras.jpg'); background-size: cover; 
+            background-position: center;  display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white; 
+            text-align: center;
+            filter: blur(50%);
+            font-size: 5vw;
+            background-color: #5be19e;
+            height: 30vh;
+        }     
+        
+        header::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0, 0, 0, 0.5); 
+                z-index: 1;
+        }
+
+        header strong {
+                position: relative;
+                z-index: 2; 
+        }
+
+        body{font-family: Arial, Helvetica, sans-serif; 
+            background-color: white;
+            display: flex;
+            flex-direction: column; 
+        }
+        aside{
+            list-style-position: inside ;
+            padding: 1.125em; 
+            float: left; width: 20%; 
+            font-size: 1.5625rem; 
+            margin-right: 1.875em;
+        }
+        
+        li {list-style: none;}
+
+        .btn {
+        display: block;
+        width: 150%;
+        margin-bottom: 0.625em;
+        text-align: center;
+        border-radius: 0.75em; 
+        background-color: #40966b; 
+        color: white; 
+        border: none;
+        padding: 0.375em; 
+        font-size: 0.875rem;
+        }
+
+        main{
+            display:flex; 
+            flex: 1; 
+            width: 100%; 
+            margin: 1em; 
+            padding: 2em;
+            box-sizing: border-box;
+        }
+        
+        .content{
+            display: flex; 
+            margin: 1.25em; 
+            justify-content: space-between;
+        }
+        
+
+        .img-container{ 
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 0;
+                object-fit: cover;
+                width: 100%;
+        }
+            .img-container img {
+            width: 60%;
+            height: auto; 
+            
+            }
+    
+        .container-fluid{
+                width: 50%;
+                padding: 1.125em;
+            }
+
+        footer{text-align: center; position: fixed; bottom: 0; width: 100%; background-color: #5be19e; }
+        
+        </style>
+    </head>
+
+    <body>
+        <header>
+            
+            <strong>Pardal Verdureiro</strong>
+
+        </header>
+        
+        <main>
+            <aside id="menu_lateral">
+                <nav>
+                    <ul class=nav-tabs> 
+                    <li class="nav-item">
+                        <a class = "btn btn-sucess" href= "PTI.html">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class = "btn btn-sucess" href= "Produtos.html">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class = "btn btn-sucess" href= "orçamento.html">Orçamento</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class = "btn btn-sucess" href= "about.html">Sobre</a>
+                    </li>
+                    </ul> 
+                </nav>
+            </aside>
+            
+
+            <div class ="img-container">
+                <img src="vini verduras.jpg" alt="Imagem mostrando Vinícius, dono do empreendimento"> 
+            </div>
+            
+            <div class="container-fluid">  
+                <h2>Prazer, me chamo Vinícius Pardal.</h2>
+                <p>Sou o fundador do Vinão Verdureiro, um negócio dedicado a fornecer os melhores produtos orgânicos e frescos diretamente para a sua casa. Acreditamos na importância da alimentação saudável e no apoio ao microempreendedorismo.</p>
+                <p>Estamos comprometidos com a sustentabilidade e a qualidade em tudo o que fazemos. Venha conhecer nossos produtos e fazer parte dessa jornada conosco!</p>
+            </div>
+               
+        </div>
+        </main>
+        <footer style ="text-align: center;">
+            <p>Desenvolvido por Lucas Rocha, todos os direitos reservados. 2024</p>    
+        </footer>
+    </body>

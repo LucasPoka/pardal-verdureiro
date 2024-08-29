@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="pt-br"> 
+    <head>
+        <title>Produtos</title>  
+        <meta charset = 'UTF-8'> <!--charset idioma do site-->
+        <meta name = "viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <!--escala para celulares-->
+        <title>Pardal Verduras</title> <!--título da página na guia e busca google-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
+        integrity="sha384-MCw98"/>
+        
+        <style>
+        header{
+            text-align: center; position: relative; background-image: url('verduras.jpg'); background-size: cover; 
+            background-position: center;  display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white; 
+            text-align: center;
+            filter: blur(50%);
+            font-size: 5vw;
+            background-color: #5be19e;
+            height: 30vh;
+        }     
+        
+        header::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0, 0, 0, 0.5); 
+                z-index: 1;
+        }
+
+        header strong {
+                position: relative;
+                z-index: 2; 
+        }
+
+        body{font-family: Arial, Helvetica, sans-serif; 
+            background-color: white;
+            display: flex;
+            flex-direction: column; 
+            min-height: 100vh;
+        }
+       
+        h1{font-size: 5vw;}
+        
+        aside{
+            
+            padding: 1em; 
+            float: none; 
+            width: 25%; 
+            font-size: 1.25rem; 
+            box-sizing: border-box;
+            }
+
+        main{
+            display:flex; 
+            flex: 1; 
+            width:100%; 
+            margin:0; 
+            padding: 2em;
+            box-sizing: border-box;
+            flex-wrap: wrap
+        }
+
+        
+        footer{
+            text-align: center; 
+            position: bottom; 
+            bottom: 0; 
+            width: 100%; 
+            background-color: #40966b; 
+            color: white;
+            padding: 1em 0;
+        }
+        .section{
+            display: flex;
+            flex-grow: 1; 
+            font-size: 1.2rem
+        }
+        li {list-style: none;}
+        
+        .btn {
+        display: block;
+        width: 70%;
+        margin-bottom: 10px;
+        text-align: center;
+        border-radius: 12px; 
+        background-color: #40966b; 
+        color: white; 
+        border: none;
+        padding: 0.8em; 
+        font-size: 14px;
+        }
+
+            
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <strong>Pardal Verdureiro</strong>
+        </header>
+        <main>
+            
+            <aside id="menu_lateral">
+                <nav>
+                    <ul class=nav-tabs> 
+                    <li class="nav-item">
+                        <a class = "btn btn-sucess" href= "PTI.html">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class = "btn btn-sucess" href= "Produtos.html">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class = "btn btn-sucess" href= "orçamento.html">Orçamento</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class = "btn btn-sucess" href= "about.html">Sobre</a>
+                    </li>
+                    </ul> 
+                </nav>
+            </aside>          
+
+            
+            <section id="produtos">
+                <h2>Nossos Produtos</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="hortaliças.jpg" alt="Imagem que demonstra hortaliças variadas" class="img-fluid">
+                        <h3>Hortaliças</h3>
+                        <p>As verduras são reconhecidas por terem um baixo teor de carboidratos e de calorias. <br> 
+                        E, por possuírem pouca durabilidade, é importante verificar a sua qualidade e cortá-las próximas à hora do consumo. <br>
+                        <br>Também é aconselhável o consumo de verduras em estado cru para que elas não percam muitas das suas propriedades..</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="Legumes.jpg" alt="Imagem que demonstra legumes variados" class="img-fluid">
+                        <h3>Legumes</h3>
+                        <p>Os legumes se caracterizam por serem vegetais que podem ter seus frutos desenvolvidos tanto na parte exterior da terra como abaixo da terra.
+                        <br>Eles são compostos pelas raízes, tubérculos, frutos e caules, que possuem um tempo maior de duração para o consumo.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="frutas.jpg" alt="Imagem que demonstra frutas variadas" class="img-fluid">
+                        <h3>Frutas</h3>
+                        <p>A fruta (ou fruto) é parte integrante de algumas plantas. É responsável por proteger e carregar as sementes e, por vezes, pode ser utilizada como alimento.<br>
+
+                            Apesar de ser um termo muitíssimo utilizado, a palavra “fruta”, na verdade, é uma designação não oficial, que significa “fruto de sabor adocicado”. <br> Em outras palavras, “fruta” não existe no vocabulário botânico.
+                            
+                            Popularmente, o que se entende por fruta é um alimento de origem vegetal, doce ou ligeiramente adocicado.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            
+            
+
+        </main>
+        <footer>
+            <p>Desenvolvido por Lucas Rocha, todos os direitos reservados. 2024</p>    
+        </footer>
+    </body>
