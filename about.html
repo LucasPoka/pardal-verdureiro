@@ -68,6 +68,7 @@
         font-size: 14px;
         }
 
+
         main{
             display:flex; 
             flex: 1; 
@@ -75,7 +76,7 @@
             margin: 1em; 
             padding: 2em;
             box-sizing: border-box;
-            
+            flex-wrap: wrap
             
         }
         
@@ -91,12 +92,12 @@
                 justify-content: center;
                 align-items: center;
                 padding: 0;
-                object-fit: cover;
                 width: 50%;
                 flex-grow: 1; 
+                margin-left: 5rem;
         }
             .img-container img {
-            width: 60%;
+            width: 50%;
             height: auto; 
             
             }
@@ -106,7 +107,7 @@
                 padding: 1.125em;
             }
 
-        footer{text-align: center; position: fixed; bottom: 0; width: 100%; background-color: #5be19e; }
+        footer{text-align: center; position: bottom; bottom: 0; width: 100%; background-color: #5be19e; }
         
         </style>
     </head>
@@ -138,16 +139,18 @@
                 </nav>
             </aside>
             
-
-            <div class ="img-container">
-                <img src="vini verduras.jpg" alt="Imagem mostrando Vinícius, dono do empreendimento"> 
-            </div>
-            
             <div class="container-fluid">  
                 <h2>Prazer, me chamo Vinícius Pardal.</h2>
                 <p>Sou o fundador do Vinão Verdureiro, um negócio dedicado a fornecer os melhores produtos orgânicos e frescos diretamente para a sua casa. Acreditamos na importância da alimentação saudável e no apoio ao microempreendedorismo.</p>
                 <p>Estamos comprometidos com a sustentabilidade e a qualidade em tudo o que fazemos. Venha conhecer nossos produtos e fazer parte dessa jornada conosco!</p>
+            </div>   
+            
+            
+            
+            <div class ="img-container">
+                <img src="vini verduras.jpg" alt="Imagem mostrando Vinícius, dono do empreendimento"> 
             </div>
+            
                
         </div>
         </main>
